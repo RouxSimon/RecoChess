@@ -25,6 +25,7 @@ def detect_pieces(image_path):
         minRadius=10,
         maxRadius=50
     )
+    
 
     if circles is not None:
         circles = circles[0, :].astype(int)
